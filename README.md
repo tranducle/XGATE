@@ -1,4 +1,4 @@
-# X-GATE: Explanation-Guided Adversarial Training & Consistency Distillation for Edge-IIoT Security
+# X-GATE: Securing Edge-IIoT Networks via Explanation-Guided Adversarial Training and Logical Consistency Distillation
 
 This repository contains the official code for the anonymous peer-review submission of **X-GATE**.
 
