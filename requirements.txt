@@ -1,0 +1,42 @@
+# Research Agent System v6.0 - Python Dependencies
+
+# Core dependencies
+python-dotenv>=1.0.0
+PyYAML>=6.0.1
+pydantic>=2.0
+
+# Async support
+aiohttp>=3.9.1
+
+# CLI
+click>=8.1.7
+rich>=13.7.0
+
+# Data processing
+pandas>=2.1.4
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+matplotlib>=3.8.2
+seaborn>=0.13.0
+
+# Bibliography
+pybtex>=0.24.0
+
+# Logging
+colorlog>=6.8.0
+
+# Memory persistence
+mem0ai>=1.0.0
+
+# LangGraph orchestration
+langgraph>=0.0.50
+
+# Optional: For document processing
+# pypandoc>=1.12
+
+# File to Markdown conversion (PDF, Word, PPT, Excel, Images, Audio, etc.)
+markitdown[all]>=0.1.0
+
+# Testing (optional)
+# pytest>=7.4.3
+# pytest-asyncio>=0.21.1
