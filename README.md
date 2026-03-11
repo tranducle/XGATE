@@ -36,7 +36,8 @@ pip install -r requirements.txt
 
 The experiments utilize the **Edge-IIoTset 2022 Cybersecurity Dataset**.
 
-1. Download the tabular CSV version of the dataset.
+1. Download the tabular CSV version of the dataset from the official public repository:
+   - [Edge-IIoTset on Kaggle](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot)
 2. Place the dataset files within the `dataset/` directory.
 3. Ensure the core label columns correspond to the 15-class attack families outlined in the manuscript.
 
