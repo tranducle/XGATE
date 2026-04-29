@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Dataset (too large for GitHub)
+dataset/
+DATASET/
+
+# Results / checkpoints (large binary files)
+results/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab temp
+COLABCODE/__pycache__/
+COLABCODE/results/
+COLABCODE/*.pth
+COLABCODE/test_ckpt.pth

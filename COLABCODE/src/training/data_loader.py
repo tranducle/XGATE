@@ -23,8 +23,13 @@ def _candidate_dataset_dirs():
     if env_dir:
         yield Path(env_dir)
 
+    colab_root = os.environ.get("XGATE_COLAB_ROOT")
+    if colab_root:
+        yield Path(colab_root) / "DATASET" / "processed"
+
     yield PROJECT_PUBLIC_DIR / "DATASET" / "processed"
     yield RELATED_DATA_DIR / "DATASET" / "processed"
+    yield PROJECT_PUBLIC_DIR.parent.parent / "DATASET" / "processed"
 
 
 def resolve_dataset_dir() -> Path:
@@ -41,7 +46,9 @@ def resolve_dataset_dir() -> Path:
         "Unable to locate the processed X-GATE dataset.\n"
         "Searched these locations:\n"
         f"{inspected}\n"
-        "Set XGATE_DATASET_DIR to the processed dataset directory if needed."
+        "Set XGATE_DATASET_DIR to the processed dataset directory if needed.\n"
+        "For the provided Colab bundle, the recommended layout is\n"
+        "  /content/drive/MyDrive/XGATE_COLAB/DATASET/processed"
     )
 
 

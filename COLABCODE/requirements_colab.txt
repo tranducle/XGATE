@@ -1,0 +1,12 @@
+# Colab normally ships with a CUDA-enabled PyTorch already installed.
+# Keep that default unless you explicitly need a different torch build.
+
+numpy>=1.24,<3
+pandas>=2.1,<3
+scipy>=1.10,<2
+scikit-learn>=1.3,<2
+pyarrow>=14,<18
+tqdm>=4.66,<5
+lightgbm>=4.0,<5
+matplotlib>=3.7,<4
+seaborn>=0.13,<1

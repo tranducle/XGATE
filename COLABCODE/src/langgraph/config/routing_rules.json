@@ -1,0 +1,524 @@
+{
+    "version": "1.0",
+    "description": "Routing rules for LangGraph Research Agent System",
+    "domains": {
+        "Strategy & Operations": {
+            "lead": "StrategicArchitect",
+            "agents": {
+                "StrategicArchitect": [
+                    "plan",
+                    "roadmap",
+                    "strategy",
+                    "blueprint",
+                    "wbs"
+                ],
+                "ResearchPlanGenerator": [
+                    "research plan",
+                    "detailed plan",
+                    "comprehensive plan"
+                ],
+                "ProjectStateKeeper": [
+                    "track",
+                    "status",
+                    "log",
+                    "progress"
+                ],
+                "ProgressTracker": [
+                    "milestone",
+                    "track progress"
+                ],
+                "AgileProjectManager": [
+                    "agile",
+                    "sprint",
+                    "kanban",
+                    "scrum"
+                ],
+                "LogicStrategist": [
+                    "logic",
+                    "mece",
+                    "hypothesis",
+                    "problem solve"
+                ],
+                "Scoper": [
+                    "scope",
+                    "boundary",
+                    "limit"
+                ],
+                "ResearchScoper": [
+                    "research scope",
+                    "research boundary"
+                ],
+                "ResourceConstraintAuditor": [
+                    "resource",
+                    "budget",
+                    "tco",
+                    "feasibility"
+                ]
+            }
+        },
+        "Research & Discovery": {
+            "lead": "LiteratureHunter",
+            "agents": {
+                "LiteratureHunter": [
+                    "find papers",
+                    "search",
+                    "literature",
+                    "academic search"
+                ],
+                "SemanticSearch": [
+                    "semantic scholar",
+                    "citation graph"
+                ],
+                "GoogleScholarSearch": [
+                    "google scholar",
+                    "scholar"
+                ],
+                "ScopusSearch": [
+                    "scopus",
+                    "elsevier",
+                    "high impact"
+                ],
+                "GeneralWebSearcher": [
+                    "web search",
+                    "general search",
+                    "internet"
+                ],
+                "SLRProtocolDroid": [
+                    "systematic review",
+                    "slr",
+                    "prisma"
+                ],
+                "GapScout": [
+                    "gap",
+                    "research gap",
+                    "opportunity"
+                ],
+                "PriorArtNoveltyScanner": [
+                    "prior art",
+                    "novelty check",
+                    "patent"
+                ],
+                "JournalIdeaScout": [
+                    "research idea",
+                    "find topic",
+                    "trending topics"
+                ],
+                "DatasetResearchSpecialist": [
+                    "dataset",
+                    "data source",
+                    "find data"
+                ]
+            }
+        },
+        "Methodology & Analysis": {
+            "lead": "MethodologyArchitect",
+            "agents": {
+                "MethodologyArchitect": [
+                    "methodology",
+                    "research design",
+                    "rigor"
+                ],
+                "MethodologyExperimentDesigner": [
+                    "experiment",
+                    "experiment design"
+                ],
+                "StatisticalAnalyst": [
+                    "statistics",
+                    "p-value",
+                    "anova",
+                    "t-test",
+                    "regression"
+                ],
+                "SurveyDesignerAnalyst": [
+                    "survey",
+                    "likert",
+                    "questionnaire"
+                ],
+                "QualitativeCoder": [
+                    "qualitative",
+                    "thematic",
+                    "coding",
+                    "interview"
+                ],
+                "AppliedMathModeler": [
+                    "math model",
+                    "optimization",
+                    "linear program"
+                ],
+                "MathProofAuditor": [
+                    "proof",
+                    "theorem",
+                    "verify math"
+                ],
+                "EconometricsModeler": [
+                    "econometrics",
+                    "did",
+                    "iv",
+                    "rdd"
+                ],
+                "CausalAnalyst": [
+                    "causal",
+                    "causal inference"
+                ],
+                "GameTheoryStrategist": [
+                    "game theory",
+                    "nash",
+                    "attacker defender"
+                ]
+            }
+        },
+        "Security & Risk": {
+            "lead": "CyberSecurityArchitect",
+            "agents": {
+                "CyberSecurityArchitect": [
+                    "security architecture",
+                    "defense",
+                    "nist",
+                    "zero trust"
+                ],
+                "AdversarialAttackSimulator": [
+                    "attack",
+                    "red team",
+                    "kill chain",
+                    "mitre"
+                ],
+                "ThreatModeler": [
+                    "threat model",
+                    "stride",
+                    "dread"
+                ],
+                "SaaSShadowITCartographer": [
+                    "shadow it",
+                    "saas",
+                    "cloud risk"
+                ],
+                "ProtocolNetworkSemanticsVerifier": [
+                    "protocol",
+                    "rfc",
+                    "packet"
+                ],
+                "CryptoProtocolVerifier": [
+                    "crypto",
+                    "encryption",
+                    "tls",
+                    "certificate"
+                ],
+                "IncidentReadinessPlaybookGenerator": [
+                    "incident",
+                    "playbook",
+                    "ir"
+                ],
+                "MinViableSecurityArchitect": [
+                    "sme security",
+                    "lightweight security"
+                ],
+                "SupplyChainRiskAnalyst": [
+                    "supply chain",
+                    "vendor risk",
+                    "tprm"
+                ],
+                "CyberInsuranceAnalyst": [
+                    "cyber insurance",
+                    "risk transfer"
+                ],
+                "RegulatoryComplianceAuditor": [
+                    "compliance",
+                    "gdpr",
+                    "hipaa",
+                    "iso"
+                ]
+            }
+        },
+        "Writing & Synthesis": {
+            "lead": "PublicationReadyWriter",
+            "agents": {
+                "PaperOutlineArchitect": [
+                    "paper outline",
+                    "manuscript outline",
+                    "structure paper"
+                ],
+                "PublicationReadyWriter": [
+                    "write paper",
+                    "manuscript",
+                    "draft"
+                ],
+                "PaperWriter": [
+                    "write section",
+                    "draft section"
+                ],
+                "ManuscriptReviser": [
+                    "revise manuscript",
+                    "address reviewer",
+                    "revision"
+                ],
+                "WritingStylePolisher": [
+                    "polish",
+                    "refine",
+                    "style",
+                    "grammar"
+                ],
+                "GrantProposalStrategist": [
+                    "grant",
+                    "proposal",
+                    "funding",
+                    "nsf",
+                    "nih"
+                ],
+                "AbstractTitleGenerator": [
+                    "abstract",
+                    "title",
+                    "summary"
+                ],
+                "LatexPaperGenerator": [
+                    "latex",
+                    "bibtex",
+                    "format paper"
+                ],
+                "ReferenceManager": [
+                    "references",
+                    "bibliography",
+                    "citation manager"
+                ],
+                "BibTeXOptimizer": [
+                    "optimize bib",
+                    "fix bibtex",
+                    "find doi"
+                ],
+                "DeepSynthesizer": [
+                    "synthesize",
+                    "summarize",
+                    "combine"
+                ],
+                "CaseStudyArchivist": [
+                    "case study"
+                ]
+            }
+        },
+        "Coding & Engineering": {
+            "lead": "CoderReproAgent",
+            "agents": {
+                "PyTorchImplementer": [
+                    "pytorch",
+                    "neural network",
+                    "deep learning"
+                ],
+                "CoderReproAgent": [
+                    "code",
+                    "implement",
+                    "programming"
+                ],
+                "CodeDebugger": [
+                    "debug",
+                    "error",
+                    "fix code"
+                ],
+                "CodeRefactorer": [
+                    "refactor",
+                    "clean code"
+                ],
+                "ReproducibilityArtifactEngineer": [
+                    "reproducibility",
+                    "docker",
+                    "requirements.txt"
+                ],
+                "FrameworkArchitect": [
+                    "framework",
+                    "architecture",
+                    "system design"
+                ],
+                "HardwareresourceEstimator": [
+                    "gpu",
+                    "hardware",
+                    "memory estimate"
+                ],
+                "ModelCapabilityRouter": [
+                    "which model",
+                    "model selection"
+                ]
+            }
+        },
+        "Visualization": {
+            "lead": "VisualCommunicationArchitect",
+            "agents": {
+                "VisualCommunicationArchitect": [
+                    "plot",
+                    "chart",
+                    "visualize",
+                    "figure"
+                ],
+                "TikZPlotter": [
+                    "tikz",
+                    "latex diagram"
+                ],
+                "FigureGenerator": [
+                    "generate figure",
+                    "create chart"
+                ],
+                "ResultVisualizer": [
+                    "visualize results",
+                    "data visualization"
+                ],
+                "HybridVisualizer": [
+                    "ascii diagram",
+                    "text diagram"
+                ],
+                "DiagramGenerator": [
+                    "mermaid",
+                    "flowchart",
+                    "sequence diagram"
+                ],
+                "PresentationArchitect": [
+                    "presentation",
+                    "slides",
+                    "deck"
+                ],
+                "ExplainabilityTranslator": [
+                    "explain",
+                    "lay summary",
+                    "simplify"
+                ]
+            }
+        },
+        "Review & Quality": {
+            "lead": "PeerReviewer",
+            "agents": {
+                "PeerReviewer": [
+                    "review",
+                    "audit",
+                    "check",
+                    "verify"
+                ],
+                "ReviewerSimulator": [
+                    "simulate reviewer",
+                    "reviewer 2"
+                ],
+                "HarshReviewer": [
+                    "harsh",
+                    "critical review"
+                ],
+                "ReviewerStrategist": [
+                    "respond to reviewer",
+                    "rebuttal"
+                ],
+                "CitationVerifier": [
+                    "citation check",
+                    "verify references"
+                ],
+                "FeasibilityRigorSoundnessChecker": [
+                    "rigor",
+                    "soundness",
+                    "feasibility"
+                ],
+                "JournalSelector": [
+                    "journal",
+                    "venue",
+                    "where to publish"
+                ],
+                "EthicalComplianceGuard": [
+                    "ethics",
+                    "irb",
+                    "consent"
+                ]
+            }
+        },
+        "Business & Enterprise": {
+            "lead": "CostBenefitAnalyst",
+            "agents": {
+                "SMETypologyArchitect": [
+                    "sme",
+                    "small business",
+                    "micro enterprise",
+                    "smb"
+                ],
+                "CostBenefitAnalyst": [
+                    "cost benefit",
+                    "roi",
+                    "tco",
+                    "budget"
+                ],
+                "CompetitorAnalyst": [
+                    "competitor",
+                    "competitive analysis",
+                    "market"
+                ],
+                "EntrepreneurialPsychProfiler": [
+                    "entrepreneur",
+                    "owner bias",
+                    "decision maker"
+                ],
+                "HumanFactorCultureQuantifier": [
+                    "organizational culture",
+                    "culture audit"
+                ],
+                "FutureScenarioForecaster": [
+                    "business scenario",
+                    "future planning",
+                    "what if"
+                ]
+            }
+        },
+        "Innovation & Ideation": {
+            "lead": "InnovationStrategist",
+            "agents": {
+                "InnovationStrategist": [
+                    "innovate",
+                    "novel idea",
+                    "creative"
+                ],
+                "BrainstormingFacilitator": [
+                    "brainstorm",
+                    "ideation",
+                    "generate ideas"
+                ],
+                "IdeaMutationDesignSpaceExplorer": [
+                    "design space",
+                    "explore options"
+                ],
+                "SystemDynamicsMapper": [
+                    "system dynamics",
+                    "feedback loop",
+                    "causal loop"
+                ],
+                "MissingPartSuggester": [
+                    "missing",
+                    "suggest",
+                    "what's next"
+                ]
+            }
+        }
+    },
+    "priority_keywords": {
+        "tikz": {
+            "domain": "Visualization",
+            "agent": "TikZPlotter"
+        },
+        "latex diagram": {
+            "domain": "Visualization",
+            "agent": "TikZPlotter"
+        },
+        "mermaid": {
+            "domain": "Visualization",
+            "agent": "DiagramGenerator"
+        },
+        "flowchart": {
+            "domain": "Visualization",
+            "agent": "DiagramGenerator"
+        },
+        "threat model": {
+            "domain": "Security & Risk",
+            "agent": "ThreatModeler"
+        },
+        "systematic review": {
+            "domain": "Research & Discovery",
+            "agent": "SLRProtocolDroid"
+        },
+        "prisma": {
+            "domain": "Research & Discovery",
+            "agent": "SLRProtocolDroid"
+        },
+        "bibtex": {
+            "domain": "Writing & Synthesis",
+            "agent": "LatexPaperGenerator"
+        }
+    }
+}
