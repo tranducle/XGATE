@@ -3,9 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Paper:** *X-GATE: Attribution-Aware Distillation and Hardening for Compressed Edge-IIoT Intrusion Detection*
-> **Authors:** Tran Duc Le, Yida Bao, Mohammad Arifuzzaman
-> **Affiliation:** Department of Mathematics, Statistics & Computer Science, University of Wisconsin-Stout
-> **Journal:** Electronics (MDPI), 2026
 
 ---
 
@@ -114,12 +111,9 @@ For Colab users, see [`COLABCODE/COLAB_SETUP.md`](COLABCODE/COLAB_SETUP.md) for 
 If you find this work useful, please cite:
 
 ```bibtex
-@article{le2026xgate,
+@article{xgate2026,
   title={X-GATE: Attribution-Aware Distillation and Hardening for Compressed Edge-IIoT Intrusion Detection},
-  author={Le, Tran Duc and Bao, Yida and Arifuzzaman, Mohammad},
-  journal={Electronics},
-  year={2026},
-  publisher={MDPI}
+  year={2026}
 }
 ```
 
